@@ -1,12 +1,9 @@
 ﻿
-# TestMap
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14262975.svg)](https://doi.org/10.5281/zenodo.14262975)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Language](https://img.shields.io/badge/Language-CSharp-blue.svg)
+# TARS CSharps
 
+TARS CSharp is a standalone testing analysis runner for CSharp repositories.
 
-
-TestMap is a tool for gathering software tests from C# repositories from GitHub and other Git based developer platforms.
+It's build on [TestMap](https://github.com/consulthunter/TestMap)
 
 It collects software tests using SyntaxTrees and the Roslyn API.
 ## Dependencies
