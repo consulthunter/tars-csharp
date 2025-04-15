@@ -1,0 +1,13 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+Temp/
+TestMap/Output/
+TestMap/Logs/
+TestMap.Tests/Output/
+TestMap.Tests/Logs/
+.idea/
+
+Release/

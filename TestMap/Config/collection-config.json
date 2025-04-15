@@ -1,0 +1,40 @@
+{
+  "FilePaths": {
+    "TargetFilePath": "D:\\Projects\\TestMap\\TestMap\\Data\\example_project.txt",
+    "LogsDirPath": "D:\\Projects\\TestMap\\TestMap\\Logs",
+    "TempDirPath": "D:\\Projects\\TestMap\\Temp",
+    "OutputDirPath": "D:\\Projects\\TestMap\\TestMap\\Output"
+  },
+  "Settings": {
+    "MaxConcurrency": 5,
+    "RunDateFormat": "yyyy-MM-dd"
+  },
+  "Docker": {
+    "all": "net-sdk-all"
+  },
+  "Frameworks": {
+    "NUnit": [
+      "Test",
+      "TestCase",
+      "TestCaseSource",
+      "Theory"
+    ],
+    "xUnit": [
+      "Fact",
+      "Theory"
+    ],
+    "MSTest": [
+      "TestMethod",
+      "DataSource"
+    ],
+    "Microsoft.VisualStudio.TestTools.UnitTesting": [
+      "TestMethod",
+      "DataSource"
+    ]
+  },
+  "Scripts": {
+    "Docker": "D:\\Projects\\TestMap\\TestMap\\Scripts\\run_docker.ps1",
+    "Docker-Cleanup": "D:\\Projects\\TestMap\\TestMap\\Scripts\\run_docker_cleanup.ps1",
+    "Delete": "D:\\Projects\\TestMap\\TestMap\\Scripts\\run_rm.ps1"
+  }
+}
